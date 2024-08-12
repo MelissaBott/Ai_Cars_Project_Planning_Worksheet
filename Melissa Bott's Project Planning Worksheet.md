@@ -59,11 +59,7 @@ Now that you have thought out the impact and technical aspects of how the AI wil
 
 **Miscellaneous**: Add any other resources you might need for your project below. 
 
-Short clips of traffic light intersections or cars on the highway
-
-- [https://external-preview.redd.it/yA0aC\_FwJyeNTIxnoW\_H4r6UzaM5nX6NZsXITaiNqlk.gif?width=650\&height=340.314136126\&s=a0d749b57dbc372f3b2502ee00ecdf72b8ae8c19](https://external-preview.redd.it/yA0aC\_FwJyeNTIxnoW\_H4r6UzaM5nX6NZsXITaiNqlk.gif?width=650\&height=340.314136126\&s=a0d749b57dbc372f3b2502ee00ecdf72b8ae8c19)  
-- [https://media0.giphy.com/media/9uIGW7P8Ox6swA5Vw7/giphy.gif](https://media0.giphy.com/media/9uIGW7P8Ox6swA5Vw7/giphy.gif)  
-- [https://i.gifer.com/embedded/download/HSM2.gif](https://i.gifer.com/embedded/download/HSM2.gif) 
+- pictures of cars, copy image link and use wget to upload into the terminal 
 
 ## **Part Four: Documentation**
 
