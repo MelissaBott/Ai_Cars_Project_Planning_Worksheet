@@ -94,7 +94,7 @@ https://github.com/dusty-nv/jetson-inference/blob/master/docker/run.sh = run.sh 
       
 4.  cd build/aarch64/bin/images
 
-5.  wget (image link)
+5.  wget (image link of cars on a highway or intersection)
 
 6.  ./detectnet "name of image" test/new name.jpg
                   (aka input,  aka output)
