@@ -97,9 +97,8 @@ https://github.com/dusty-nv/jetson-inference/blob/master/docker/run.sh = run.sh 
 5.  wget (image link of cars on a highway or intersection)
 
 6.  ./detectnet "name of image" test/new name.jpg
-                  (aka input,  aka output)
 
-8.  pull up the new image (you can do it form the side panel, should be under jetson-inference/build/aarch64/bin/image/test
+7.  pull up the new image (you can do it form the side panel, should be under jetson-inference/build/aarch64/bin/image/test
 
 [Jetson AI Fundamentals \- S3E4 \- Object Detection Inference (youtube.com)](https://www.youtube.com/watch?v=obt60r8ZeB0\&list=PL5B692fm6--uQRRDTPsJDp4o0xbzkoyf8\&index=13) \- also a video demo 
 
