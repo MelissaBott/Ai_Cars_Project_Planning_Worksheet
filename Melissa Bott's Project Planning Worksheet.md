@@ -86,21 +86,20 @@ https://github.com/dusty-nv/jetson-inference/blob/master/docker/run.sh = run.sh 
 
 **Reproducibility**: How could your project be reproduced or run on another machine. Make sure to remember all steps that make your project work. 
 
-1.  download the Jetson Inference Library to VS Code (by using wget and unzipping it)
+1.  download the Jetson Inference Library to VS Code (if you're taking the NVIDIA Ai Machine Learning camp then you already have it so you don't need to do this step)
 
 2. cd jetson-inference 
       
-3. docker/run.sh code 
+3. docker/run.sh 
       
 4.  cd build/aarch64/bin/images
 
 5.  wget (image link)
 
-6.  mkdir test (if you don't have it already)
+6.  ./detectnet "name of image" test/new name.jpg
+                  (aka input,  aka output)
 
-7.  ./detectnet "name of image" where_you_want_to_upload_it/what_you_wanna_call_the_picture
-
-8.  pull up the picture in file explorer from where you located it
+8.  pull up the new image (you can do it form the side panel, should be under jetson-inference/build/aarch64/bin/image/test
 
 [Jetson AI Fundamentals \- S3E4 \- Object Detection Inference (youtube.com)](https://www.youtube.com/watch?v=obt60r8ZeB0\&list=PL5B692fm6--uQRRDTPsJDp4o0xbzkoyf8\&index=13) \- also a video demo 
 
