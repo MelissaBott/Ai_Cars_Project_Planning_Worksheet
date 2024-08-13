@@ -50,12 +50,12 @@ Now that you have thought out the impact and technical aspects of how the AI wil
 
 **Example code:** Add your example code below
 
-* [jetson-inference/docs/detectnet-console-2.md at master · dusty-nv/jetson-inference (github.com)](https://github.com/dusty-nv/jetson-inference/blob/master/docs/detectnet-console-2.md) \-  source code from github  
-* [Python: package jetson.inference (rawgit.com)](https://rawgit.com/dusty-nv/jetson-inference/master/docs/html/python/jetson.inference.html\#detectNet) \-  more code ex.
+https://github.com/dusty-nv/jetson-inference/blob/master/python/examples/detectnet.py = detectnet.py code
+https://github.com/dusty-nv/jetson-inference/blob/master/docker/run.sh = run.sh code
 
 **Datasets**: If applicable, add the dataset that you will be using below
 
-91 class [https://github.com/dusty-nv/jetson-inference/blob/master/data/networks/ssd\_coco\_labels.txt](https://github.com/dusty-nv/jetson-inference/blob/master/data/networks/ssd\_coco\_labels.txt) 
+(I just got a picture's link from the internet)
 
 **Miscellaneous**: Add any other resources you might need for your project below. 
 
@@ -86,13 +86,21 @@ Now that you have thought out the impact and technical aspects of how the AI wil
 
 **Reproducibility**: How could your project be reproduced or run on another machine. Make sure to remember all steps that make your project work. 
 
-1.  code
+1.  download the Jetson Inference Library to VS Code (by using wget and unzipping it)
 
-2. Videos   
+2. cd jetson-inference 
       
-3. Make directory   
+3. docker/run.sh code 
       
-4.  And run the code 
+4.  cd build/aarch64/bin/images
 
-[Jetson AI Fundamentals \- S3E4 \- Object Detection Inference (youtube.com)](https://www.youtube.com/watch?v=obt60r8ZeB0\&list=PL5B692fm6--uQRRDTPsJDp4o0xbzkoyf8\&index=13) \- all shown in this video demo 
+5.  wget (image link)
+
+6.  mkdir test (if you don't have it already)
+
+7.  ./detectnet "name of image" where_you_want_to_upload_it/what_you_wanna_call_the_picture
+
+8.  pull up the picture in file explorer from where you located it
+
+[Jetson AI Fundamentals \- S3E4 \- Object Detection Inference (youtube.com)](https://www.youtube.com/watch?v=obt60r8ZeB0\&list=PL5B692fm6--uQRRDTPsJDp4o0xbzkoyf8\&index=13) \- also a video demo 
 
